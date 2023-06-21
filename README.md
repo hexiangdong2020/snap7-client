@@ -2,6 +2,7 @@
 对Snap7中Client的Plain C绑定的封装。
 
 参考文章：https://zhuanlan.zhihu.com/p/387439079
+PLC的内部参数：https://snap7.sourceforge.net/snap7_lib_api.html#parameters
 ## 编译client.exe
 ```bash
 gcc -o client.exe ./client.c -static-libgcc ./snap7.lib -I"./"
