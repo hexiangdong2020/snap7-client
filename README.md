@@ -24,3 +24,8 @@ gcc -o client.exe ./client.c -static-libgcc ./snap7.lib -I"./"
 ```
 运行结果如下：
 ![client.exe的运行结果](https://github.com/hexiangdong2020/snap7-client/blob/main/client%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.PNG?raw=true client.exe的运行结果)
+
+## 编译plc.exe
+```bash
+gcc -o plc.exe ./plc.c -static-libgcc ./snap7.lib -I"./"
+```
